@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -8,9 +9,29 @@ html, body {
   width: 100%;
 }
 #navbar {
+  display: flex;
   font-family: monospace;
   font-size: 12px;
-  padding: .5% 5%;
+  height: 4%;
   background-color: black;
   color: goldenrod;
+}
+#navbar p {
+  padding-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#content {
+  height: 96%;
+  padding: 0 5%;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#page-head {
+  font-family: 'East Sea Dokdo', cursive;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  margin: 0;
 }
