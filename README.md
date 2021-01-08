@@ -21,14 +21,14 @@ ___
 * Click on the code button to open the menu.\
 ![Github Repo Example](/img/README/githubrepo.PNG)
 
-- Copy the HTTPS code by clicking the clipboard next to the link
+- Copy the HTTPS code by clicking the clipboard next to the link.
 
-- Within your Bash terminal navigate to your desired location by using cd fallowed by your desired directory 
+- Within your Bash terminal navigate to your desired location by using cd fallowed by your desired directory.
 ```bash
  cd Desktop
 ``` 
 
-- Once you have chosen your desired directory use the command
+- Once you have chosen your desired directory use the command.
 ```bash 
 git clone https://github.com/dcouch440/my-portfolio.git
 ```
@@ -52,7 +52,7 @@ git clone https://github.com/dcouch440/my-portfolio.git
 </div>
 
 
-* Then use the command 
+* Then after the proccess is completed use the command.
 
 ``` bash
 code .

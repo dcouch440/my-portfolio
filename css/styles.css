@@ -132,11 +132,46 @@ h1 {
   list-style: none;
   padding-left: 1%;
 }
+/* hobbies */
+#hobbies {
+  padding: 5px 10px;
+  width: 100%;
+  background-color: rgb(212, 219, 226);
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px 0px #00000038;
+}
+#hobbies {
+  text-align: center;
+}
+.hobbie {
+  display: flex;
+  flex-direction: column;
+}
+.hobbie img{
+  height: 20vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#cubase {
+  font-weight: 900;
+  color:  rgb(165 0 29);
+  font-family: sans-serif;
+  text-shadow: -1px 0px black;
+}
+#blender {
+  font-weight: 900;
+  color: #e37200;
+  font-family: sans-serif;
+  text-shadow: -1px 0px black;
+}
 @media only screen and (max-width: 950px) {
   #bio-container {
     flex-direction: column;
   }
   #bio-container img {
+    display: block;
     object-fit: cover;
     width: 100%;
     border-radius: 5px;
