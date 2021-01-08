@@ -35,8 +35,33 @@ html, body {
 h1 {
   margin: 0;
 }
-#page-content {
-  border: 1px solid rgba(218, 165, 32, 0.157);
+#bio-container {
+  font-family: monospace;
+  display: flex;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: rgb(212, 219, 226);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#bio-container img {
+  width: 50%;
+  border-radius: 5px;
+}
+#bio-description-container {
+  width: 100%;
+  background-color: rgba(84, 124, 83, 0.068);
+}
+#bio-container p {
+  padding: 2%;
+  font-size: 26px;
+}
+#arts-style {
+  font-family: fantasy;
+}
+#technologies-style {
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #websites img{
   width: 100%; 
