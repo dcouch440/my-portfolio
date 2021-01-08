@@ -42,9 +42,16 @@ h1 {
   margin: 0;
   text-shadow: -3px 0px black;
 }
-/* Bio */
+/* bio */
 #about-me {
   font-weight: 900;
+}
+#epicodus-link {
+  color: rgba(0,179,180,.7);
+}
+#epicodus-link:hover {
+  color: white;
+  transition: .2s;
 }
 #bio-container {
   display: flex;
@@ -83,7 +90,7 @@ h1 {
   padding-left: 10%;
   font-size: 1.7vw;
 }
-/* Website links */
+/* website links */
 #websites img{
   width: 100%; 
 }
@@ -154,13 +161,13 @@ h1 {
   border-radius: 10px;
   object-fit: cover;
 }
-#cubase {
+#cubase-style {
   font-weight: 900;
   color:  rgb(165 0 29);
   font-family: sans-serif;
   text-shadow: -1px 0px black;
 }
-#blender {
+#blender-style {
   font-weight: 900;
   color: #e37200;
   font-family: sans-serif;
