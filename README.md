@@ -47,6 +47,7 @@ git clone https://github.com/dcouch440/my-portfolio.git
     Note : 
   </span> 
   If you have any problems make sure your HTTPS code is correct! The example above might not be the most recent HTTPS code!
+  <br />
 </div>
 
 

@@ -7,25 +7,29 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  font-family: monospace;
 }
 #navbar {
+  z-index: 2;
   display: flex;
   font-family: monospace;
-  font-size: 12px;
+  font-size: 18px;
   height: 4%;
   background-color: black;
   color: goldenrod;
+  box-shadow: inset 0px 0px 7px 0px white;
 }
 #navbar p {
   padding-left: 5%;
   margin-top: auto;
   margin-bottom: auto;
+  text-shadow: -1px 1px 0px rgb(83, 83, 83);
 }
 #content {
-  height: 96%;
+  display: flex;
+  flex-direction: column;
   padding: 0 5%;
   background-color: aliceblue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #page-head {
   font-family: 'East Sea Dokdo', cursive;
@@ -33,22 +37,29 @@ html, body {
   text-align: center;
 }
 h1 {
+  font-size: 64px;
+  color: goldenrod;
   margin: 0;
+  text-shadow: -3px 0px black;
 }
 /* Bio */
+#about-me {
+  font-weight: 900;
+}
 #bio-container {
-  font-family: monospace;
   display: flex;
   padding: 5px 10px;
   width: 100%;
   background-color: rgb(212, 219, 226);
   border: 2px solid black;
   border-radius: 5px;
+  box-shadow: 0px 4px 15px 0px #00000038;
 }
 #bio-container img {
   object-fit: cover;
   width: 50%;
   border-radius: 5px;
+  box-shadow: 0px 1px 6px 0px #ffffff;
 }
 #bio-description-container {
   width: 100%;
@@ -76,6 +87,10 @@ h1 {
 #websites img{
   width: 100%; 
 }
+#websites img:hover {
+  transform: scale(1.03);
+  transition: .2s;
+}
 #websites {
   flex-wrap: wrap;
 }
@@ -88,15 +103,22 @@ h1 {
   font-size: 2.5vw;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  
-}#websites a:hover {
+}
+.website-link-text {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#websites a:hover {
   color: goldenrod;
   transition: .2s;
 }
 .link-button {
+  overflow: hidden;
   border-radius: 5px 5px 0 0;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.835);
+  box-shadow: 0px 5px 6px black;
 }
 .website-preview ul {
   color: white;
