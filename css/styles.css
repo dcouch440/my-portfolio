@@ -160,6 +160,14 @@ h1 {
   border: 1px solid black;
   border-radius: 10px;
   object-fit: cover;
+  box-shadow: 0px 1px 3px 0px #00000047;
+}
+.hobbie img:hover {
+  transform: scale(1.02);
+  transition: .1s;
+}
+.hobbie-images a {
+  text-decoration: none;
 }
 #cubase-style {
   font-weight: 900;
