@@ -68,7 +68,8 @@ h1 {
 #favorite-code p{
   font-size: 1.7vw;
 }
-#favorite-code ul{
+#favorite-code ol{
+  padding-left: 10%;
   font-size: 1.7vw;
 }
 /* Website links */
@@ -80,7 +81,6 @@ h1 {
 }
 .website-preview {
   padding: 1%;
-  height: 100%;
   width: 33.33%;
   float: left;
 }
@@ -97,6 +97,18 @@ h1 {
   border-radius: 5px 5px 0 0;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.835);
+}
+.website-preview ul {
+  color: white;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  height: 200px;
+  list-style: circle;
+  text-align: left;
+}
+.website-preview li {
+  list-style: none;
+  padding-left: 1%;
 }
 @media only screen and (max-width: 950px) {
   #bio-container {
