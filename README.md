@@ -15,7 +15,7 @@
 ___
 
 ## Installation :
-* Go to ( https://github.com/dcouch440/my-portfolio )
+* Go to ( https://github.com/dcouch440/my-portfolio ).
 
 *  Navigate to the code button on the github website.\
 ![Code buton](/img/README/code.PNG)
