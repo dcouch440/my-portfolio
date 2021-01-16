@@ -43,7 +43,7 @@ h1 {
   text-shadow: -3px 0px black;
 }
 /* bio */
-#about-me {
+#about-me{
   font-weight: 900;
 }
 #epicodus-link {
@@ -70,6 +70,7 @@ h1 {
   filter: grayscale(10%);
 }
 #bio-description-container {
+  padding: 20px;
   width: 100%;
   background-color: rgba(84, 124, 83, 0.068);
 }
@@ -201,6 +202,10 @@ iframe {
   box-shadow: 0 0 4px black;
 }
 @media only screen and (max-width: 950px) {
+  #bio-container img {
+    height: 400px;
+    box-shadow: none;
+  }
   #content {
     padding: 0;
   }
