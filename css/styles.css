@@ -28,7 +28,7 @@ html, body {
 #content {
   display: flex;
   flex-direction: column;
-  padding: 0 5%;
+  padding: 0 10%;
   background-color: aliceblue;
 }
 #page-head {
@@ -183,6 +183,7 @@ h1 {
 }
 #music-player {
   display: flex;
+  justify-content: center;
   padding: 2% 15%;
 }
 @media only screen and (max-width: 950px) {
